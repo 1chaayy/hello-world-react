@@ -14,8 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "lint": "eslint src --ext .js,.jsx",
-    "lint:fix": "eslint src --ext .js,.jsx --fix",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
